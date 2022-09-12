@@ -1,0 +1,218 @@
+{
+	"info": {
+		"_postman_id": "30e1cdf1-1d30-4d7f-87c8-6f67f8ec1b1b",
+		"name": "PracticaWizeline Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://reqbin.com/echo/post/json",
+					"protocol": "https",
+					"host": [
+						"reqbin",
+						"com"
+					],
+					"path": [
+						"echo",
+						"post",
+						"json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "github.com"
+					},
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "accept-language",
+						"value": "es-ES,es;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "_octo=GH1.1.1563424106.1661788230; _device_id=14761870aecfee0f17197898371f0220; user_session=wYfspu6kb7O16ZKb0iscqXjfWdJb6wgXc6aBNy5Q_xnygTHk; __Host-user_session_same_site=wYfspu6kb7O16ZKb0iscqXjfWdJb6wgXc6aBNy5Q_xnygTHk; logged_in=yes; dotcom_user=JCLEyihh2002; color_mode=%7B%22color_mode%22%3A%22auto%22%2C%22light_theme%22%3A%7B%22name%22%3A%22light%22%2C%22color_mode%22%3A%22light%22%7D%2C%22dark_theme%22%3A%7B%22name%22%3A%22dark%22%2C%22color_mode%22%3A%22dark%22%7D%7D; preferred_color_mode=light; tz=America%2FMexico_City; has_recent_activity=1; _gh_sess=qSRMVoKY0Bw7hxOG8wmY5OCA60DvZMD2wrB09TzKGck9YiKynt30j4zRX114CCP5lBC20j5zw9fnLccuSdiMqA7UyUkltVcAOO2we%2B0c5dS6F3xGNt1m2DwLY39ioCkQ9yPEAibkQzQEQ%2F%2FkbMcq0WEr9cETbOFCMzxbsMdIV5SQnnPTdjnKm2fB%2FvTqEeVaUmlLFmzjrE4RWAbm6zc%2BClGt9P7GN5ETwG0XtZgAKk7kwixkz2tEMjrMyz7bizT3nycUeg1j47J3O8C2MA6ISX795WzF%2BVnoeGY%2BDTG8XQ3ParF50SCb71n%2B4AmrECifL2zeuw%3D%3D--p0pfR4TzRp4Hf3K6--apT3Nt%2FpyGTFOCXP4sDVEA%3D%3D"
+					},
+					{
+						"key": "origin",
+						"value": "https://github.com"
+					},
+					{
+						"key": "referer",
+						"value": "https://github.com/JCLEyihh2002/PracticasJC1"
+					},
+					{
+						"key": "scoped-csrf-token",
+						"value": "UkDyzyAwlpgBi9WADGzygxYDNutiFYiPEYtmE_NUpVuirt26Ie_hDNdQ-F2PzO-a5NlgLqR4pU0cJTUQqrYcMA"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"105\", \"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"105\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-requested-with",
+						"value": "XMLHttpRequest"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "variables[pageViews][]",
+							"value": "repository:PipedreamHQ/pipedream",
+							"type": "text"
+						},
+						{
+							"key": "variables[pageViews][]",
+							"value": "repository:settings/profile",
+							"type": "text"
+						},
+						{
+							"key": "variables[pageViews][]",
+							"value": "repository:settings/security",
+							"type": "text"
+						},
+						{
+							"key": "variables[pageViews][]",
+							"value": "repository:emigdio7/BAZJAVA12022",
+							"type": "text"
+						},
+						{
+							"key": "variables[pageViews][]",
+							"value": "repository:JCLEyihh2002/BAZJAVA12022",
+							"type": "text"
+						},
+						{
+							"key": "variables[pageViews][]",
+							"value": "repository:JCLEyihh2002/PracticasJC1",
+							"type": "text"
+						},
+						{
+							"key": "variables[pageViews][]",
+							"value": "repository:wizelineacademy/BAZJAVA12022",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/pokemon/ditto",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemon",
+						"ditto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HEAD",
+			"request": {
+				"method": "HEAD",
+				"header": [],
+				"url": {
+					"raw": "https://github.com/_graphql/GetSuggestedNavigationDestinations",
+					"protocol": "https",
+					"host": [
+						"github",
+						"com"
+					],
+					"path": [
+						"_graphql",
+						"GetSuggestedNavigationDestinations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://reqbin.com/sample/delete/json",
+					"protocol": "https",
+					"host": [
+						"reqbin",
+						"com"
+					],
+					"path": [
+						"sample",
+						"delete",
+						"json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://reqbin.com/echo/put/json",
+					"protocol": "https",
+					"host": [
+						"reqbin",
+						"com"
+					],
+					"path": [
+						"echo",
+						"put",
+						"json"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
