@@ -1,0 +1,15 @@
+'user1@wizeline.com', 'pass1'
+'user1@wizeline.com', 'pass1'
+'user1@wizeline.com', 'Pass1@'
+'user1@wizeline.com', 'XyvgGZ(X7@!1996ems1'
+user1@wizeline.com, pass1
+user2@wizeline.com, pass2
+user3@wizeline.com, pass3
+user1@wizeline.com, pass1
+user2@wizeline.com, pass2
+'user1@wizeline.com', 'Pass1@'
+user1@wizeline.com, pass1
+user2@wizeline.com, pass2
+'user1@wizeline.com', 'Pass1@'
+user1@wizeline.com, pass1
+user2@wizeline.com, pass2
